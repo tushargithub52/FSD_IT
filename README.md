@@ -7,3 +7,9 @@ To clone:-
     -> git clone "https://github.com/tushargithub52/FSD_IT.git"
 To move in the repo folder:-
     -> cd .\FSD_IT\
+To push into github changes:-
+    -> git add .
+    -> git commit -m "first commit"
+    -> git push
+
+    
