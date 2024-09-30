@@ -19,8 +19,10 @@ table {
 #row1 {
     text-align: center;
     background-color: aquamarine;
+    border: none;
 }
 #row2 {
     text-align: center;
     background-color: azure;
+    border: none;
 }
