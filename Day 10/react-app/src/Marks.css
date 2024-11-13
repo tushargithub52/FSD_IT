@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(76, 74, 74);
+    color: white;
+}
+#mark {
+background-color: rgb(27, 24, 24);
+}
+h1 {
+background-color: aqua;
+color: blueviolet;
+font-size: 30px;
+}
+h2 {
+background-color: blueviolet;
+color: wheat;
+font-size: 20px;
+border-radius: 5px;
+}

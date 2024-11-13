@@ -10,8 +10,10 @@ async function fetchData() {
             a.textContent = element.login
             a.setAttribute("href", element.html_url);
             let top = document.getElementById("div1");
-            top.appendChild(h1)
-            top.appendChild(a)
+            let div2 = document.createElement("div")
+            let top2 = top.appendChild(div2)
+            top2.appendChild(h1)
+            top2.appendChild(a)
         });
     } catch (error) {
         console.error("Error fetching Data : ", error);
