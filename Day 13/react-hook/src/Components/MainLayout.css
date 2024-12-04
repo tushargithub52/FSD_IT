@@ -1,0 +1,13 @@
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+li a {
+    font-size: 45px;
+    text-decoration: none;
+    margin-right: 80px;
+}
