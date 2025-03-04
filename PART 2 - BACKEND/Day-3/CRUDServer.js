@@ -3,12 +3,14 @@
 const http = require("http")
 const PORT = 8080
 
+let data = [{
+    id: 1,
+    name: "Tushar",
+    email: "e@email.com",
+}]
+
+
 const server = http.createServer(async (req, res) => {
-    const data = [{
-        id: 1,
-        name: "Tushar",
-        email: "e@email.com",
-    }]
     const URL = req.url;
 
     if(URL == "/users" && req.method == "GET") {
