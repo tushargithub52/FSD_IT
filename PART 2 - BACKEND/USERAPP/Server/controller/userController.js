@@ -33,8 +33,8 @@ const addUser=async(req,res)=>{
 const editUser=async(req,res)=>{
   try{
     const email=req.params.email;
-    const {name,password,role}=req.body;
-     const updateduser=await User.findOneAndUpdate({email},{name,password,role},{new:true});
+    const {name,password,role,newemail}=req.body;
+     const updateduser=await User.findOneAndUpdate({email},{name,password,role, email:newemail || email},{new:true});
      res.status(200).json(updateduser);
   }
   catch(err){
